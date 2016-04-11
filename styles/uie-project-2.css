@@ -1580,7 +1580,7 @@ h3 {
   font-size: 1.25em;
   line-height: 1.25;
   margin: 1.5em 0 0em;
-  color: #5b84a5;
+  color: #797166;
   font-weight: normal; }
   /* line 62, ../../../../src/scss/structure/_base.scss */
   h3:first-child {
@@ -1739,7 +1739,9 @@ header {
     clear: both; }
   /* line 10, ../../../src/scss/components/_header.scss */
   header > .page {
-    padding: 36px 16px 24px; }
+    padding: 36px 90px 24px;;
+    max-width: 85em;
+}
   /* line 14, ../../../src/scss/components/_header.scss */
   header div.branding-bar {
     *zoom: 1; }
@@ -1844,8 +1846,7 @@ header {
       font-size: 0.75em; } }
 
 header > .page{
-  padding: 36px 0px 24px;
-  max-width: 65em;
+
 }
 
 .page {
@@ -1870,8 +1871,8 @@ nav {
     font-size: 1em;
     max-width: 808px;
     width: 100%;
-    margin: 0 auto;
-    max-width: 65em;
+    margin: 0px 80px 0px 80px;
+    max-width: 72em;
 }
 
 nav.site a.register {
@@ -1893,6 +1894,20 @@ nav.site a {
     background: none;
     text-shadow: none;
     font-size: 0.925em;
+}
+
+a.on.nav-subhead {
+  font-size: 1.5em;
+}
+
+.row-two {
+  background-color: #fff;
+  padding: 30px 90px;
+}
+
+.topbutton {
+  font-size: 18px;
+  float: right;
 }
 
 footer {
@@ -3709,12 +3724,36 @@ form.password {
   margin-bottom: 20px;
 }
 
+.first-row {
+  padding: 0px 85px 30px 85px;
+
+}
+
+.second-row-a {
+  padding: 15px 90px 5px 90px;
+}
+
+.second-row-b {
+  padding: 10px 90px 15px 90px;
+
+}
+
+.third-row {
+  padding: 30px 90px;
+  background-color: #fff;
+}
+
+.fourth-row {
+  padding: 30px 90px;
+
+}
+
 .email-collect .email-content{
-  padding: 20px;
+  padding: 10px;
 }
 
 .email-collect label{
-  font-size: 16px;
+  font-size: 24px;
   display: inline;
 }
 
@@ -3730,12 +3769,12 @@ form.password {
 
 .email-collect button{
   display: block;
-  margin: 30px auto 0 !important;
+  margin: 0px auto 0 !important;
   text-align: center;
 }
 
 .ondemand h1{
-  font-size: 1.9em;
+  font-size: 2.9em;
   margin-top: 0;
 }
 
